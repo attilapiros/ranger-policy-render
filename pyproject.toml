@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ranger-policy-render"
+version = "0.1.0"
+authors = [
+  { name="Attila Piros", email="piros.attila.zsolt@gmail.com" },
+]
+description = "Transform Apache Ranger policy JSON into human-readable tables"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "tabulate",
+    "rich"
+]
+
+[project.scripts]
+ranger-policy-render = "ranger_policy_render.main:main"
