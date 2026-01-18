@@ -3,6 +3,8 @@ A lightweight CLI utility to transform complex Apache Ranger policy JSON exports
 
 # Example run
 
+Input: [kyubbi's policy JSON used as a test resource](https://raw.githubusercontent.com/apache/kyuubi/refs/heads/master/extensions/spark/kyuubi-spark-authz/src/test/resources/sparkSql_hive_jenkins.json)
+
 ```
 $ ranger-policy-render extensions/spark/kyuubi-spark-authz/src/test/resources/sparkSql_hive_jenkins.json
 Access Policies:
