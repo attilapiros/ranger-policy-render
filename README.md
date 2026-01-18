@@ -64,3 +64,9 @@ Data Mask Policies:
 |   18 | src_value5_sf4           |       | default, spark_catalog                  | src       | value5   |       | bob            | select     | MASK_SHOW_LAST_4       |
 +------+--------------------------+-------+-----------------------------------------+-----------+----------+-------+----------------+------------+------------------------+
 ```
+
+# Install
+
+```
+$ pip install git+https://github.com/attilapiros/ranger-policy-render
+```
